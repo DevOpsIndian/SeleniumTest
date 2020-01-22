@@ -23,7 +23,7 @@ public void Testcase1()
 	String actual="Calculator for DevOps";
 	String expected=driver.getTitle();
 	Assert.assertEquals(actual, expected);//.assertEquals(, title );
-	System.out.println("Testcases passed");
+	System.out.println("Title is  :  "+ driver.getTitle());
 	
 }
 }
